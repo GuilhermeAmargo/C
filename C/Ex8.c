@@ -8,14 +8,13 @@ int main()
     printf("Digite um numero inteiro: \n");
     scanf("%d", &number);
     
-    // Calculando a soma dos dígitos
     while (number != 0) {
-        digit = number % 10; // Obtém o último dígito
-        sum += digit; // Adiciona o dígito à soma
-        number /= 10; // Remove o último dígito
+        digit = number % 10; 
+        sum += digit; 
+        number /= 10; 
     }
     
-    printf("A soma dos digitos do numero inteiro fornecido eh: %d\n", sum);
+    printf("A soma dos digitos do numero inteiro fornecido e: %d\n", sum);
     
     return 0;
 }

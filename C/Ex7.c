@@ -29,5 +29,5 @@ int main () {
     if(size == equal)
         printf("Palindromo");
     else
-    printf("Nao palindromo");
+        printf("Nao palindromo");
     }
